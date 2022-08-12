@@ -1,19 +1,25 @@
-import './App.css';
+import {useState} from "react";
 
-import data from "./utils/DataArray";
+import './App.css';
+import EXPENSE from "./utils/DataArray";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/Expenses/NewExpense/NewExpense";
 
+const DATA_EXPENSE = EXPENSE;
+
 const App = () => {
+    const [expenses, setExpenses] = useState(DATA_EXPENSE)
+
     const addExpenseHandler = expense => {
-        console.log('In App.js');
-        console.log(expense);
+        setExpenses((prevExpenses) => {
+            return [expense, ...prevExpenses];
+        });
     }
 
     return (
         <div className="App">
             <NewExpense onAddExpense={addExpenseHandler}/>
-            <Expenses items={data} />
+            <Expenses items={expenses} />
         </div>
     );
 };
