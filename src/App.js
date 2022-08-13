@@ -1,14 +1,14 @@
 import {useState} from "react";
 
 import './App.css';
-import EXPENSE from "./utils/DataArray";
+import DATA_EXPENSE from "./utils/DataArray";
 import Expenses from "./components/Expenses/Expenses";
-import NewExpense from "./components/Expenses/NewExpense/NewExpense";
+import NewExpense from "./components/NewExpense/NewExpense";
 
-const DATA_EXPENSE = EXPENSE;
+const DUMMY_EXPENSES = DATA_EXPENSE;
 
 const App = () => {
-    const [expenses, setExpenses] = useState(DATA_EXPENSE)
+    const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
 
     const addExpenseHandler = expense => {
         setExpenses((prevExpenses) => {
