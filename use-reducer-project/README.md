@@ -21,3 +21,35 @@ You may also see any lint errors in the console.
 - Adding Nested Properties As Dependencies To useEffect.
 - useReducer vs useState for State Management.
 ---
+
+### Adding Nested Properties As Dependencies To useEffect
+In the previous lecture, we used object destructuring to add object properties as dependencies to <mark>useEffect()</mark>.
+```javascript
+const { someProperty } = someObject;
+useEffect(() => {
+  // code that only uses someProperty ...
+}, [someProperty]);
+```
+<p>
+This is a <b>very common pattern and approach</b>>, which is why I typically use it and why I show it here (I will keep on using it throughout the course).
+</p>
+<p>
+I just want to point out, that they <b>key thing is NOT that we use destructuring</b> but that we pass specific properties instead of the entire object as a dependency.
+</p>
+We could also write this code and it would <b>work in the same way</b>.
+
+```javascript
+useEffect(() => {
+  // code that only uses someProperty ...
+}, [someObject.someProperty]);
+```
+This works just fine as well!
+
+But you should **avoid** this code:
+```javascript
+useEffect(() => {
+  // code that only uses someProperty ...
+}, [someObject]);
+```
+Why?
+Because now the **effect function would re-run whenever ANY property** of <mark>someObject</mark> is changes - not just the one property (<mark>someProperty</mark> in the above example) our effect might depend on.
