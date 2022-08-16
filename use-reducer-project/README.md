@@ -53,3 +53,15 @@ useEffect(() => {
 ```
 Why?
 Because now the **effect function would re-run whenever ANY property** of <mark>someObject</mark> is changes - not just the one property (<mark>someProperty</mark> in the above example) our effect might depend on.
+---
+
+### Section 10: Advanced: Handling Side Effects, Using Reducers & Using the Context API (side-effects-project)
+- Introducing React Context (Context API).
+- Using the React Context API.;
+- Tapping Into Context with the useContext Hook.
+- Making Context Dynamic.
+- Building & Using a Custom Context Provider Component.
+- React Context Limitations.
+- Learning the "Rules of Hooks".
+- Diving into "Forward Refs".
+
