@@ -90,4 +90,21 @@ Styling React Components:
 - Controlled vs Uncontrolled Components.
 ---
 
-### Advanced: Handling Side Effects, Using Reducers & Using the Context API
+### Section 10: Advanced: Handling Side Effects, Using Reducers & Using the Context API (side-effects-project)
+- What are "Side Effects" & Introducing useEffect.
+- useEffect & Dependencies.
+- What to add & Not to add as Dependencies.
+- Using the useEffect Cleanup Function.
+- Introducing useReducer & Reducers In General.
+- Using the useReducer() Hook.
+- useReducer & useEffect.
+- Adding Nested Properties As Dependencies To useEffect.
+- useReducer vs useState for State Management.
+- Using the React Context API.
+- Tapping Into Context with the useContext Hook.
+- Making Context Dynamic.
+- Building & Using a Custom Context Provider Component.
+- React Context Limitations.
+- Learning the "Rules of Hooks".
+- Diving into "Forward Refs".
+---
