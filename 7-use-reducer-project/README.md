@@ -67,4 +67,3 @@ Because now the **effect function would re-run whenever ANY property** of <mark>
 ---
 ![](public/rules-of-hooks.jpg) 
 ---
-z

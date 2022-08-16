@@ -21,7 +21,7 @@ The following page gives a good overview over the various methods you can use on
 - slice()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 - splice()  => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
-### Section 3: React Basics & Working With Components (expense-project)
+### Section 3: React Basics & Working With Components (1-expense-project)
 React Basics, Components, Props & JSX:
 - What Are Components.
 - Declarative Way.
@@ -34,7 +34,7 @@ React Basics, Components, Props & JSX:
 - The Concept of "Composition" ("children props").
 - Organizing Component Files.
 
-### Section 4: React State & Working with Events (expense-project)
+### Section 4: React State & Working with Events (1-expense-project)
 Working with Events & State:
 - Listening to Events & Working with Event Handlers.
 - Working with "State".
@@ -44,7 +44,7 @@ Working with Events & State:
 - Child-to-Parent Component Communication (Bottom-up).
 - Controlled vs Uncontrolled Components & Stateless vs Stateful Components.
 
-### Section 5: Rendering Lists & Conditional Content (expense-project)
+### Section 5: Rendering Lists & Conditional Content (1-expense-project)
 Outputting Lists & Conditional Content:
 - Rendering Lists of Data.
 - Using Stateful Lists.
@@ -55,7 +55,7 @@ Outputting Lists & Conditional Content:
 - Adding Dynamic Styles.
 ---
 
-### Section 6: Styling React Components (styling-project)
+### Section 6: Styling React Components (2-styling-project)
 Styling React Components:
 - Setting Dynamic Inline Styles.
 - Setting CSS Classes Dynamically.
@@ -65,14 +65,14 @@ Styling React Components:
 - Using CSS Modules.
 - Dynamic Styles with CSS Modules.
 
-### Section 7: Debugging React Apps (styling-project)
+### Section 7: Debugging React Apps (2-styling-project)
 - Understanding React Error Messages.
 - Analyzing Code Flow & Warnings.
 - Working with Breakpoints.
 - Using the React DevTools.
 ---
 
-### Section 8: Time to Practice: A Complete Practice Project (practice-project)
+### Section 8: Time to Practice: A Complete Practice Project (3-practice-project)
 - Adding a re-usable "Card" Component.
 - Adding Validation & Resetting Logic.
 - Managing a List Of Users via State.
@@ -80,7 +80,7 @@ Styling React Components:
 - Managing the Error State.
 ---
 
-### Section 9: Diving Deeper: Working with Fragments, Portals & "Refs" (working-with-fragments-project)
+### Section 9: Diving Deeper: Working with Fragments, Portals & "Refs" (4-working-with-fragments-project)
 - JSX Limitations & Workarounds.
 - Creating a Wrapper Component.
 - React Fragments.
@@ -90,7 +90,7 @@ Styling React Components:
 - Controlled vs Uncontrolled Components.
 ---
 
-### Section 10: Advanced: Handling Side Effects, Using Reducers & Using the Context API (side-effects-project)
+### Section 10: Advanced: Handling Side Effects, Using Reducers & Using the Context API (5-side-effects-project, 6-use-effect-project, 7-use-reducer-project)
 - What are "Side Effects" & Introducing useEffect.
 - useEffect & Dependencies.
 - What to add & Not to add as Dependencies.
@@ -108,3 +108,6 @@ Styling React Components:
 - Learning the "Rules of Hooks".
 - Diving into "Forward Refs".
 ---
+
+### Section 11: Practice Project: Building a Food Order App (8-food-order-project)
+-
