@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
 import classes from './Navigation.module.css';
 import AuthContext from "../../store/auth-context";
 
 const Navigation = (props) => {
-  return (
-      <AuthContext.Consumer>
-          {(authContext) =>
+    const authContext = useContext(AuthContext);
+
+    return (
+      // <AuthContext.Consumer>
+      //     {(authContext) =>
               <nav className={classes.nav}>
                   <ul>
                       {authContext.isLoggedIn && (
@@ -26,9 +28,9 @@ const Navigation = (props) => {
                       )}
                   </ul>
               </nav>
-          }
-      </AuthContext.Consumer>
-  );
+          // }
+      // </AuthContext.Consumer>
+    );
 };
 
 export default Navigation;
