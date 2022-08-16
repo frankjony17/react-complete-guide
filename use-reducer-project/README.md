@@ -64,5 +64,7 @@ Because now the **effect function would re-run whenever ANY property** of <mark>
 - React Context Limitations.
 - Learning the "Rules of Hooks".
 - Diving into "Forward Refs".
-
-<object data="public/rules-of-hooks.pdf" type="application/pdf" width="100%"></object>
+---
+![](public/rules-of-hooks.jpg) 
+---
+z
