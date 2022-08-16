@@ -20,25 +20,9 @@ You may also see any lint errors in the console.
 - useEffect & Dependencies.
 - What to add & Not to add as Dependencies.
 - Using the useEffect Cleanup Function.
-- Introducing useReducer & Reducers In General.
-- Using the useReducer() Hook.
-- useReducer & useEffect.
-- Adding Nested Properties As Dependencies To useEffect.
-- useReducer vs useState for State Management.
-- Using the React Context API.
-- Tapping Into Context with the useContext Hook.
-- Making Context Dynamic.
-- Building & Using a Custom Context Provider Component.
-- React Context Limitations.
-- Learning the "Rules of Hooks".
-- Diving into "Forward Refs".
 ---
 
-## What to add & Not to add as Dependencies
-- What are "Side Effects" & Introducing useEffect.
-- useEffect & Dependencies.
-- What to add & Not to add as Dependencies.
---- 
+## What to add & Not to add as Dependencies 
 In the previous lecture, we explored useEffect() dependencies.
 You learned, that you should add "everything" you use in the effect function as a dependency - i.e. all state variables and functions you use in there.
 That is correct, but there are a few exceptions you should be aware of:
