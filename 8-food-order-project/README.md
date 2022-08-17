@@ -21,5 +21,16 @@ You may also see any lint errors in the console.
 - Adding a "Meals" Component.
 - Adding Individual Meal Items & Displaying Them.
 - Adding a Form.
-- 
+- Fixing Form Input IDs.
+- Working on the "Shopping Cart" Component.
+- Adding a Modal via a React Portal.
+- Managing Cart & Modal State.
+- Adding a Cart Context.
+- Using the Context.
+- Adding a Cart Reducer.
+- Working with Refs & Forward Refs.
+- Outputting Cart Items.
+- Working on a More Complex Reducer Logic.
+- Making Items Removable.
+- Using the useEffect Hook.
 ---
