@@ -15,10 +15,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### Section 14: Sending Http Requests (e.g. Connecting to a Database) [11-sending-http-requests-project]
-- Sending a GET Request.
-- Using async / await.
-- Handling Loading & Data States.
-- Handling Http Errors.
-- Using useEffect() For Requests.
+### Section 14: Sending Http Requests (e.g. Connecting to a Database) [12-sending-http-requests-project]
+- Preparing The Project For The Next Steps.
+- Sending a POST Request.
+- Wrap Up.
 ---
