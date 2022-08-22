@@ -15,11 +15,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### Section 13: An Alternative Way Of Building Components: Class-based Components (10-building-components_class-based-project)
-- Adding a First Class-based Component.
-- Working with State & Events.
-- The Component Lifecycle (Class-based Components Only!).
-- Lifecycle Methods In Action.
-- Class-based Components & Context.
-- Class-based vs Functional Components: A Summary.
+### Section 14: Sending Http Requests (e.g. Connecting to a Database) [11-sending-http-requests-project]
+- Sending a GET Request.
+- Using async / await.
+- Handling Loading & Data States.
+- Handling Http Errors.
+- Using useEffect() For Requests.
+- Preparing The Project For The Next Steps.
+- Sending a POST Request.
+- Wrap Up.
 ---

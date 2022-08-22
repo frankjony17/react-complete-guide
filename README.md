@@ -110,4 +110,53 @@ Styling React Components:
 ---
 
 ### Section 11: Practice Project: Building a Food Order App (8-food-order-project)
--
+- Adding a "Header" Component.
+- Adding the "Cart" Button Component.
+- Adding a "Meals" Component.
+- Adding Individual Meal Items & Displaying Them.
+- Adding a Form.
+- Fixing Form Input IDs.
+- Working on the "Shopping Cart" Component.
+- Adding a Modal via a React Portal.
+- Managing Cart & Modal State.
+- Adding a Cart Context.
+- Using the Context.
+- Adding a Cart Reducer.
+- Working with Refs & Forward Refs.
+- Outputting Cart Items.
+- Working on a More Complex Reducer Logic.
+- Making Items Removable.
+- Using the useEffect Hook.
+---
+
+### Section 12: A Look Behind The Scenes Of React & Optimization Techniques (09-behind-the-scenes_optimization-techniques)
+- How React Really Works.
+- Component Updates In Action.
+- A Closer Look At Child Component Re-Evaluation.
+- Preventing Unnecessary Re-Evaluations with React.memo().
+- Preventing Function Re-Creation with useCallback().
+- useCallback() and its Dependencies.
+- A Closer Look At State & Components.
+- Understanding State Scheduling & Batching.
+- Optimizing with useMemo().
+---
+
+### Section 13: An Alternative Way Of Building Components: Class-based Components (10-building-components_class-based-project)
+- Adding a First Class-based Component.
+- Working with State & Events.
+- The Component Lifecycle (Class-based Components Only!).
+- Lifecycle Methods In Action.
+- Class-based Components & Context.
+- Class-based vs Functional Components: A Summary.
+---
+
+### Section 14: Sending Http Requests (e.g. Connecting to a Database) [11-sending-http-requests-project]
+- Sending a GET Request.
+- Using async / await.
+- Handling Loading & Data States.
+- Handling Http Errors.
+- Using useEffect() For Requests.
+- Preparing The Project For The Next Steps.
+- Sending a POST Request.
+- Wrap Up.
+---
