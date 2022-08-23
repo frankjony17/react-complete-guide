@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 
 import Tasks from './components/Tasks/Tasks';
 import NewTask from './components/NewTask/NewTask';
@@ -7,24 +7,22 @@ import useHttp from "./hook/use-http";
 function App() {
     const [tasks, setTasks] = useState([]);
 
-    const transformTasks = (taskObject) => {
-      const loadedTasks = [];
+    const { isLoading, error, sendRequest: fetchTasks } = useHttp();
 
-      for (const key in taskObject) {
-          loadedTasks.push({ id: key, text: taskObject[key].text });
-      }
-      setTasks(loadedTasks);
-    };
+    useEffect(() => {
+        const transformTasks = taskObject => {
+            const loadedTasks = [];
 
-    const { isLoading, error, sendRequest } = useHttp(
-        { url: 'https://react-http-86879-default-rtdb.firebaseio.com/tasks.json' },
-        transformTasks
-    );
-
-    useEffect(() => { sendRequest(); },
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-        []
-    );
+            for (const key in taskObject) {
+                loadedTasks.push({ id: key, text: taskObject[key].text });
+            }
+            setTasks(loadedTasks);
+        };
+        fetchTasks(
+            { url: 'https://react-http-86879-default-rtdb.firebaseio.com/tasks.json' },
+            transformTasks
+        );
+    },[fetchTasks]);
 
     const taskAddHandler = (task) => {
         setTasks((prevTasks) => prevTasks.concat(task));
@@ -37,7 +35,7 @@ function App() {
             items={tasks}
             loading={isLoading}
             error={error}
-            onFetch={sendRequest}
+            onFetch={fetchTasks}
           />
         </React.Fragment>
     );
