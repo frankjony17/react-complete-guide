@@ -163,3 +163,18 @@ Styling React Components:
 - Sending a POST Request.
 - Wrap Up.
 ---
+
+### Section 15: Building Custom React Hooks (13-creating-custom-hook-project)
+- What are "Custom Hooks"?
+- Creating a Custom React Hook Function.
+- Using Custom Hooks.
+- Configuring Custom Hooks.
+---
+
+### Section 15: Building Custom React Hooks (14-creating-custom-hook-project)
+- Onwards To A More Realistic Example.
+- Building a Custom Http Hook.
+- Using the Custom Http Hook.
+- Adjusting the Custom Hook Logic.
+- Using The Custom Hook In More Components.
+---
